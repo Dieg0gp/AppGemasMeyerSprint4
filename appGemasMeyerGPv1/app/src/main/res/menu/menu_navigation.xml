@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/userFragment"
+        android:title="Perfil" android:icon="@drawable/ic_perfil_fragment" />
+    <item
+        android:id="@+id/publicidadFragment"
+        android:title="Publicidad" android:icon="@drawable/baseline_article_24"
+        />
+    <item
+        android:id="@+id/storeFragment"
+        android:title="Tienda" android:icon="@drawable/ic_store"/>
+    <item
+        android:id="@+id/imageFragment"
+        android:title="Joya personalizada" android:icon="@drawable/ic_img_generation"/>
+</menu>

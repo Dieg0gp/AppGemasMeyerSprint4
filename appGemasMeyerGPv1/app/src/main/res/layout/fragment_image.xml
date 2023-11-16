@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_degradado_morado"
+    android:visibility="visible"
+    tools:context=".Views.ImageFragment"
+    tools:visibility="visible">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etEspecificaciones"
+            style="@style/input"
+            android:layout_width="313dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_prompt"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/hint_especificaciones"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etPrompt" />
+
+        <EditText
+            android:id="@+id/etPrompt"
+            style="@style/input"
+            android:layout_width="314dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_input"
+            android:drawableStart="@drawable/ic_prompt"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="@string/hint_prompt"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtTituloTienda" />
+
+        <TextView
+            android:id="@+id/txtTituloTienda"
+            style="@style/sub_titulo_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/txt_img_ia"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtCantidadPedidoNuevaJoya"
+            style="@style/titulo_nom_producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/text_nuevo_pedido_cantidad"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.154"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgNuevaJoya" />
+
+        <Button
+            android:id="@+id/btnRestarPedNuevaJoya"
+            style="@style/texto_boton_3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="72dp"
+            android:background="@drawable/boton"
+            android:text="-"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.17"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgNuevaJoya" />
+
+        <Button
+            android:id="@+id/btnAdicionarPedNuevaJoya"
+            style="@style/texto_boton_3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="76dp"
+            android:background="@drawable/boton"
+            android:text="+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.782"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgNuevaJoya" />
+
+        <TextView
+            android:id="@+id/etCantidadPedNuevaJoya"
+            style="@style/titulo_nom_producto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="72dp"
+            android:text="1"
+            app:layout_constraintEnd_toStartOf="@+id/btnAdicionarPedNuevaJoya"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toEndOf="@+id/btnRestarPedNuevaJoya"
+            app:layout_constraintTop_toBottomOf="@+id/imgNuevaJoya" />
+
+        <Button
+            android:id="@+id/btnPedirNuevaJoya"
+            android:layout_width="118dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/boton"
+            android:text="@string/btn_texto_pedir"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.603"
+            app:layout_constraintStart_toEndOf="@+id/btnDescargarNuevaJoya"
+            app:layout_constraintTop_toBottomOf="@+id/imgNuevaJoya" />
+
+        <Button
+            android:id="@+id/btnDescargarNuevaJoya"
+            android:layout_width="118dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/boton"
+            android:text="@string/btn_texto_descargar"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.174"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgNuevaJoya" />
+
+        <Button
+            android:id="@+id/btnGenerar"
+            android:layout_width="116dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/boton"
+            android:text="@string/btn_texto_generar"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnPedirNuevaJoya" />
+
+        <ImageView
+            android:id="@+id/imgNuevaJoya"
+            android:layout_width="213dp"
+            android:layout_height="159dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:drawable/ic_menu_report_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etEspecificaciones"
+            tools:src="@tools:sample/avatars" />
+
+        <ProgressBar
+            android:id="@+id/prBarImagenNuevaJoya"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="95dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="@+id/imgNuevaJoya"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="@+id/imgNuevaJoya"
+            app:layout_constraintTop_toTopOf="@+id/imgNuevaJoya" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

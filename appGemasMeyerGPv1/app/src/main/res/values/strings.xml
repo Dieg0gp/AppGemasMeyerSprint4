@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">AppGemasMeyer ver1.0</string>
+    <string name="txt_titulo">App Gemas Meyer</string>
+    <string name="txt_titulo_info">Acerca de:</string>
+    <string name="txt_titulo2_info">Ejemplar (Gema bolivianita):</string>
+    <string name="hint_email">Ingrese su email</string>
+    <string name="hint_ceular">Ingrese su número de celular</string>
+    <string name="hint_ci">Ingrese su ci</string>
+    <string name="hint_nombre_completo">Ingrese su nombre</string>
+    <string name="hint_password">Ingrese su contraseña</string>
+    <string name="hint_prompt">Ingrese el título de la nueva joya</string>
+    <string name="hint_referencia">Ingrese su imagen de referencia</string>
+    <string name="hint_especificaciones">Ingrese sus especificaciones</string>
+    <string name="text_btn_registro">Registrarse 📄</string>
+    <string name="text_btn_registro2">Crear una Cuenta</string>
+    <string name="text_btn_login">Login 🔑</string>
+    <string name="text_btn_login2">Ingresar con Cuenta</string>
+    <string name="text_btn_info">Mas información 📜</string>
+    <string name="text_btn_ingreso">Ingresar ✅</string>
+    <string name="text_btn_ingreso_google">Ingresar con google</string>
+    <string name="text_btn_registrarse">Registrarse ✅</string>
+    <string name="text_btn_logout">Cerrar sesión 👋</string>
+    <string name="text_btn_volver_atras">Volver atrás</string>
+    <string name="text_nuevo_pedido_cantidad">Cantidad:</string>
+    <string name="text_login">Login | Ingresar</string>
+    <string name="text_registro">Registro</string>
+    <string name="text_speakable_btn_comprar">Boton para comprar</string>
+    <string name="text_detalle_compra">Detalle de la compra</string>
+    <string name="text_detalle_pedido">Detalle del pedido</string>
+    <!-- Lista de productos -->
+    <string name="txt_nom_producto">Nombre</string>
+    <string name="txt_des_producto">Descripción</string>
+    <string name="txt_precio">Precio</string>
+    <string name="txt_cantidad">Cantidad:</string>
+    <string name="txt_cantidad_producto">99</string>
+    <string name="btn_texto_comprar">Comprar</string>
+    <string name="btn_texto_pedir">Pedir</string>
+    <string name="btn_texto_descargar">Descargar imagen</string>
+    <string name="btn_texto_anillo">Anillo</string>
+    <string name="btn_texto_borrar">Borrar</string>
+    <string name="btn_texto_agregar">Agregar</string>
+    <string name="btn_texto_generar">Generar imagen</string>
+    <string name="btn_texto_pedido">Realizar pedido</string>
+    <string name="btn_ar">Ver joyas en AR</string>
+    <string name="btn_publicaciones">Ver publicaciones</string>
+    <string name="item_nombre">Producto:</string>
+    <string name="item_cantidad">Cantidad:</string>
+    <string name="item_precio">Precio:</string>
+    <!-- SharedPreferences -->
+    <string name="prefs_file">com.example.gemasmeyerapp_ver2.PREFERENCE_FILE_KEY</string>
+    <!-- Fragments -->
+    <string name="txt_perfil">Perfil</string>
+    <string name="txt_tienda">Tienda</string>
+    <string name="txt_img_ia">Crea tu propia joya con IA</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
