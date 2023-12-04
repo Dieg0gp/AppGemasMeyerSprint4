@@ -122,7 +122,7 @@ class StoreFragment : Fragment() {
         obtenerUsuarioApi()
         //binding.txtTotal.text = "Total: ${0}"
         binding.btnAr.setOnClickListener {
-            abrirAplicacion("edu.univalle.siumovil")
+            abrirAplicacion("com.username.hellomano")
         }
         binding.imgBtnCarrito.setOnClickListener {
             val customDialogView2 : View = layoutInflater.inflate(layout.item_list_carrito, null)

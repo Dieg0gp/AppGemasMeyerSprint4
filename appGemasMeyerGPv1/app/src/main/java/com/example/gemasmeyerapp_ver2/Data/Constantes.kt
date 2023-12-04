@@ -20,7 +20,8 @@ class Constantes {
         const val API_KEY_DEEP_AI = "d5b5d6f9-7ac3-4373-bb1f-fc5d52e419f5"
         const val CANTIDAD_PRODUCTOS_EN_STOCK_KEY = "cantidad_productos"
         //const val API_KEY_OPENAI = "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"
-        const val API_KEY_OPENAI = "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"
+        //const val API_KEY_OPENAI = "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"
+        const val API_KEY_OPENAI = "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"
         const val API_KEY_IMG_BB = "3293728a9422e80a5673fdf77d45b3a4"
         //tipo alerta
         enum class TIPO_ALERTA {
